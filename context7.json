@@ -1,12 +1,4 @@
 {
-  "$schema": "https://context7.com/schema/context7.json",
-  "projectTitle": "Veeam Plug-in for OLVM and RHV Docs",
-  "description": "Unofficial documentation dump for Veeam Plug-in for OLVM and RHV (VBRHV). Documentation for Veeam's backup and recovery solution for Oracle Linux Virtualization Manager and Red Hat Virtualization environments.",
-  "folders": ["docs"],
-  "excludeFolders": [],
-  "excludeFiles": [],
-  "rules": [
-    "This is unofficial documentation - always verify against official Veeam Help Center",
-    "Product covers OLVM and RHV virtualization platforms"
-  ]
+  "url": "https://context7.com/comnam90/veeam-docs-vbrhv-dump",
+  "public_key": "pk_vgr5FzV3CQdIPvTbuNnlU"
 }
