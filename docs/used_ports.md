@@ -3,7 +3,7 @@ title: "Ports"
 product: "vbrhv"
 doc_type: "userguide"
 source_url: "https://helpcenter.veeam.com/docs/vbrhv/userguide/used_ports.html"
-last_updated: "2/6/2026"
+last_updated: "2/19/2026"
 product_version: "13.0.1.1071"
 ---
 
@@ -19,7 +19,7 @@ The following table describes network ports that must be open to ensure proper c
 Workers
 
 | From | To | Protocol | Port | Notes |
-| Worker | Backup server | TCP | 19000 | Used to communicate with the Veeam Backup & Replication server. |
+| Worker | Backup server | TCP | 10006 | Used to communicate with the Veeam Backup & Replication server. |
 | oVirt KVM Manager | TCP/HTTPS | 443 | Used to communicate with the REST API service running on the oVirt KVM Manager. |
 | oVirt KVM Manager | TCP | 54323 | Used to communicate with oVirt KVM Manager (hosted engine). |
 | oVirt KVM host | TCP | 54322 | Used to communicate with oVirt KVM hosts. |
@@ -39,6 +39,7 @@ Backup Server
 | oVirt KVM Manager | TCP/HTTPS | 443 | Used to communicate with the REST API service running on the oVirt KVM Manager. |
 | oVirt KVM Manager | TCP | 54323 | Used to communicate with the oVirt KVM Manager (hosted engine). |
 | oVirt KVM host | TCP | 54322 | Used to communicate with oVirt KVM hosts. |
+| Worker | TCP | 19000 | Used to communicate with the workers. |
 
 |  |
 | --- |
